@@ -1,16 +1,14 @@
-static header {
-  background-color: #E26D5C;
+.header-container{
+  background-color: #E24D5C;
   min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 selfie {
   height: 40vmin;
 }
-
 text {
   font: 16pt black;
-} 
+}

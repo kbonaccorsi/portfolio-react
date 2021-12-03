@@ -4,7 +4,7 @@ import project1 from "../../../public/logo192.png";
 export default function Portfolio() {
 
   return (
-    <div className="projects">
+    <div className="portfolio-container">
       <h2>Portfolio</h2>
       <div className="project-card">
         <h3>project 1</h3>
@@ -20,15 +20,3 @@ export default function Portfolio() {
     </div>
   )
 }
-// Static Header
-// Static Nav
-// Dynamic content: sections display only when clicked on, only clicked on section displays
-// including information:
-//     -Portfolio
-//       -6 projects
-//         -title
-//         -image/gif
-//         -links
-//           -deployed application
-//           -GitHub repo
-// Static Footer

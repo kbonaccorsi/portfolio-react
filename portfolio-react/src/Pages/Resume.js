@@ -1,4 +1,14 @@
+import React from "react";
 
+export default function resume() {
+  return (
+    <div className="resume-container">
+      <p>
+        Resume goes here
+      </p>
+    </div>
+  );
+}
 
 
 
@@ -10,4 +20,4 @@
 //     -link to downloadable resume
 //     -list of developer's proficiencies
 //     -::highlight currently viewing section
-//     Static footer 
+//     Static footer

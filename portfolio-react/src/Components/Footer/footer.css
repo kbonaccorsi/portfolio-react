@@ -1,10 +1,10 @@
-static footer {
+.footer-container {
   background-color: #E2E8CE;
 }
 
-font {
+/* font {
   font: 16pt black;
-}
+}*/
 
 .footer-img {
   max-height: 45px;

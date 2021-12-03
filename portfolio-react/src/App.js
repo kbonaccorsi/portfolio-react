@@ -1,14 +1,7 @@
 import React from 'react';
 import Index from './Components';
+import './App.css';
 
 const App = () => < Index />;
 
-export default function App();
-
-function App() {
-  return (
-    <div>
-      
-    </div>
-  );
-}
+export default App;

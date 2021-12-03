@@ -1,16 +1,17 @@
 import React from 'react';
+import './header.css';
 
 export default function Header() {
 
-  //header contains "Kaileigh Bonaccorsi, Full Stack Web Developer""
   return (
     <div className="header-container">
       <h1>
-        Kaileigh bonaccorsi
+        Kaileigh Bonaccorsi
       </h1>
       <h2>
         Full Stack Web Developer
       </h2>
     </div>
   );
+  
 }
