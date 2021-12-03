@@ -1,18 +1,18 @@
 import React from 'react';
 
-export default function Nav() {
 
+
+
+export default function Nav({ currentPage, handlePageChange }) {
   return (
-
-    <div className="nav-container">
-      <h3 className="">
-        Kaileigh
-      </h3>
-      <div className="">
-        <p className="" style={{ fontSize: '50px' }}>Homepage</p>
-        <p className="" style={{ fontSize: '50px' }}>About Me</p>
-        <p className="" style={{ fontSize: '50px' }}>Contact</p>
-      </div>
+    <div>
+      <ul>
+        <li><button>Home Page</button></li>
+        <li>About Me</li>
+        <li>Contact</li>
+        <li>Portfolio</li>
+        <li>Resume</li>
+      </ul>
     </div>
   );
 }
