@@ -1,11 +1,10 @@
-import React from 'react';
-
-
+import './nav.css';
 
 
 export default function Nav({ currentPage, handlePageChange }) {
+
   return (
-    <div>
+    <div className="navbar">
       <ul className="nav">
         <li className="nav-choice">
           <a href="#HomePage" onClick={() => handlePageChange("HomePage")} className={currentPage === "HomePage" ? "nav-link active" : "nav-link"}>
@@ -45,4 +44,5 @@ export default function Nav({ currentPage, handlePageChange }) {
       </ul>
     </div>
   );
+
 }

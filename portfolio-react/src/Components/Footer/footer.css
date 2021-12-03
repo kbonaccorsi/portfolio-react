@@ -1,11 +1,19 @@
 .footer-container {
   background-color: #E2E8CE;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2;
+  justify-content: space-around;
 }
 
-/* font {
-  font: 16pt black;
-}*/
+.social-media-platforms {
+  justify-content:space-between;
+}
 
 .footer-img {
-  max-height: 45px;
+  max-height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 } 

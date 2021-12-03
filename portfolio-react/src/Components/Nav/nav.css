@@ -1,8 +1,15 @@
-av-btn {
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-btn {
   background-color: #E2E8CE;
   font: 16pt black;
   border: solid #878a7f;
+  padding: 10px;
 }
-/* ::hover {
 
-}  */
+
+/* :hover {
+} */ 

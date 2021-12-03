@@ -8,9 +8,9 @@ import AboutMe from './Pages/AboutMe';
 import Contact from './Pages/Contact';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
-import Header from './Header';
-import Nav from './Nav';
-import Footer from './Footer';
+import Header from './Components/Header';
+import Nav from './Components/Nav';
+import Footer from './Components/Footer';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));

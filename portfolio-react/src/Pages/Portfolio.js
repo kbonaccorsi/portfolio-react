@@ -1,5 +1,5 @@
 import React from "react";
-import project1 from "../../../public/logo192.png";
+import project1 from "../public/selfie.jpg";
 
 export default function Portfolio() {
 

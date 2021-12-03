@@ -1,14 +1,22 @@
-.header-container{
-  background-color: #E24D5C;
-  min-height: 25vh;
+.header-container {
+  background-color: #e24d5c;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
-selfie {
-  height: 40vmin;
+
+.name {
+  font-size: 80pt;
+  align-self: center;
 }
-text {
-  font: 16pt black;
+
+.certification {
+  font-size: 40pt;
+  align-self: center;
 }
+
+/* @media screen {
+  .name font decreases
+  .certification font decreases
+} */ 
