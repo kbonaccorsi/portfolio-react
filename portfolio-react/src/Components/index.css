@@ -12,41 +12,46 @@
   width: auto;
 }
 
-.aboutme-container {
+.page-container {
   background-color: var(--teal);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  min-height: 40vh;
 }
 
-.contactme-container {
-  background-color: var(--teal);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.heading {
+.page-heading {
   font-size: 40pt;
   align-self: center;
 }
 
-.aboutme-content {
+.page-content {
   flex-direction: row;
 }
 
-.selfie {
+.aboutme-selfie {
   max-height: 25rem;
   margin: 10px;
 }
 
-.aboutme-bio {
+.p {
   font-size: 20pt;
   text-align: center;
   align-self: center;
 }
 
+.project-heading {
+  font-size: 20pt;
+  align-self: center;
+}
+
+.project-card {
+  flex-direction: column;
+  background-color: var(--beige);
+}
+
+
 /* @media screen {
   selfie shrinks
   about me bio text size shrinks
-} */ 
+} */

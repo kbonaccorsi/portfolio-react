@@ -4,6 +4,8 @@ import Header from './Header';
 import Footer from './Footer';
 import AboutMe from '../Pages/AboutMe';
 import Contact from '../Pages/Contact';
+import HomePage from './Pages/HomePage';
+import Portfolio from './Pages/Portfolio'
 
 export default function setup() {
   return (
@@ -15,12 +17,15 @@ export default function setup() {
         Hello
       </p>
       <div>
-      <AboutMe />
-      <Contact />
+      {/* <AboutMe /> */}
+      {/* <Contact /> */}
+      {/* <HomePage /> */}
+      <Portfolio />
+
       </div>
       <div>
         <Footer />
       </div>
     </div>
   )
-} 
+}
