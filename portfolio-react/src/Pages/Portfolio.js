@@ -1,5 +1,5 @@
 import React from "react";
-import PasswordGenerator from "../../public/password-generator.gif";
+import PasswordGenerator from "../public/password-generator.gif";
 import CodeQuiz from "../public/code-quiz.gif";
 import EmployeeTracker from "../public/employee-tracker.png";
 import BudgetTracker from "../public/budget-tracker.gif";

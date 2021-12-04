@@ -14,9 +14,3 @@ export default function AboutMe() {
     </div>
   )
 }
-
-        </p>
-        </div>
-    </div>
-  )
-}

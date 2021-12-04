@@ -1,6 +1,5 @@
 import React from 'react';
 import './header.css';
-import Nav from '../Nav';
 
 export default function Header() {
 
@@ -12,9 +11,6 @@ export default function Header() {
         <h2 className="certification">
           Full Stack Web Developer
         </h2>
-      <nav className="nav-container">
-        <Nav />
-      </nav>
     </div>
   );
   
