@@ -59,8 +59,8 @@
 }
 
 .form {
-  width: 60vw;
-  justify-content: center;
-  align-content: center;
-  margin: 0;
+  width: 50vw;
+  align-self: center;
+  margin: 0 auto;
+  padding: 5px;
 }

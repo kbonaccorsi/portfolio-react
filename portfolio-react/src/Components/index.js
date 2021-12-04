@@ -38,9 +38,6 @@ const renderPage = () => {
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </nav>
       </div>
-      <p>
-        Hello
-      </p>
       <body>
         {renderPage()}
       {/* <AboutMe /> */}
@@ -48,7 +45,6 @@ const renderPage = () => {
       {/* <HomePage /> */}
       {/* <Portfolio /> */}
       {/* <Resume /> */}
-
       </body>
       <div>
         <Footer />

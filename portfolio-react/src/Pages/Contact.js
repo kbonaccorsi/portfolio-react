@@ -1,16 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
 
 
-const SERVICE_ID = "";
-const TEMPLATE_ID = "";
-const USER_ID = "";
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+const USER_ID = process.env.REACT_APP_USER_ID;
 
 const Contact = () => {
-  const handleOnSubmit = (e) => {
+    const handleOnSubmit = (e) => {
     e.preventDefault();
+
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
       .then((result) => {
         console.log(result.text);
@@ -18,12 +19,12 @@ const Contact = () => {
           icon: 'success',
           title: 'Message Sent Successfully'
         })
-      }, (e) => {
-        console.log(e.text);
+      }, (error) => {
+        console.log(error.text);
         Swal.fire({
           icon: 'error',
           title: 'Oops, something went wrong',
-          text: e.text,
+          text: error.text,
         })
       });
     e.target.reset()
