@@ -33,7 +33,7 @@ const Contact = () => {
     <div className="page-container">
       <h2 className="page-heading">Contact Me</h2>
       <div className="page-content">
-        <div className="form d-inline-flex">
+      <form className="form d-flex">
           <Form onSubmit={handleOnSubmit}>
             <Form.Field
               id='form-input-control-email'
@@ -63,9 +63,9 @@ const Contact = () => {
               placeholder='Message...'
               required
             />
-            <Button type='submit' color='green'>Submit</Button>
+            <Button type='submit' className='btn'>Submit</Button>
           </Form>
-        </div>
+        </form>
       </div>
     </div>
   );

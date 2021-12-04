@@ -1,0 +1,69 @@
+/* color palette from https://coolors.co/29827f-e2e8ce-ffffff-e26d5c-0b0500 */
+:root {
+  --teal: #146d6a;
+  --beige: #E2E8CE;
+  --white: #FFFFFF;
+  --smokyBlack: #0B0500;
+  --grey: #b6b6b6;
+  
+}
+.webpage-container {
+  background-color: grey;
+  height: 100%;
+  width: auto;
+}
+
+.page-container {
+  background-color: var(--teal);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 40vh;
+}
+
+.page-heading {
+  font-size: 40pt;
+  align-self: center;
+}
+
+.page-content {
+  flex-direction: row;
+}
+
+.aboutme-selfie {
+  max-height: 25rem;
+  margin: 10px;
+}
+
+.p {
+  font-size: 20pt;
+  text-align: center;
+  align-self: center;
+}
+
+.project-heading {
+  font-size: 20pt;
+  align-self: center;
+}
+
+.project-card {
+  flex-direction: column;
+  background-color: var(--grey);
+}
+
+.btns {
+  background-color: #E2E8CE;
+  font: 16pt black;
+  border: 2px solid #878a7f;
+  padding: 10px;
+}
+
+.form {
+  width: 50vw;
+  align-self: center;
+  margin: 0 auto;
+}
+/* @media screen {
+  selfie shrinks
+  about me bio text size shrinks
+} */
