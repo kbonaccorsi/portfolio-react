@@ -8,7 +8,7 @@ export default function Resume() {
 
   return (
     <div className="page-container p-2">
-    <div className="resume-container">
+    <div className="resume-container d-flex justify-content-center">
       <Document
         file={KaileighResume}
         onLoadSuccess={({ numPages }) => setNumPages(numPages)}
@@ -18,7 +18,6 @@ export default function Resume() {
         .map(page => <Page pageNumber={page} />
         )}
       </Document>
-      <p>Page {pageNumber} of {numPages}</p>
     </div>
   </div>
 );
