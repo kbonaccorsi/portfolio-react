@@ -59,9 +59,9 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <p>Day Planner</p>
+            {/* <p>Day Planner</p> */}
 
-            <p>Weather Dashboard</p>
+            {/* <p>Weather Dashboard</p> */}
 
             <div className="project-card w-25 m-2 p-1">
               <img src="https://user-images.githubusercontent.com/86372011/138792816-28729a8d-c76f-44ce-85e8-c3a3b3d02d91.gif" type="image/gif" className="project-img card-img-top" alt="gif of chopsticks and chill"></img>
@@ -86,7 +86,7 @@ export default function Portfolio() {
           <h3>Back End Projects</h3>
           <div className="back-end-container d-flex flex-row">
 
-            <p>Good README Generator</p>
+            {/* <p>Good README Generator</p> */}
 
             <div className="project-card w-25 m-2 p-1">
               <img src="https://user-images.githubusercontent.com/86372011/138600371-2de5e32c-f21a-40d8-a0c3-5a16b3756500.png" type="image/png" className="project-img card-img-top" alt="screenshot of employee tracker"></img>
@@ -104,7 +104,7 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <p>Note Taker</p>
+            {/* <p>Note Taker</p> */}
 
             <div className="project-card w-25 m-2 p-1">
               <img src={EmployeeTracker} type="image/png" className="project-img card-img-top" alt="screenshot of employee tracker"></img>
@@ -122,9 +122,9 @@ export default function Portfolio() {
               </a>
             </div>
 
-            <p>E-Commerce</p>
+            {/* <p>E-Commerce</p> */}
 
-            <p>Tech Blog</p>
+            {/* <p>Tech Blog</p> */}
 
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function Portfolio() {
           <h3>Full Stack Projects</h3>
           <div className="full-stack-container d-flex flex-row">
             
-          <p>Fitness Tracker</p>
+          {/* <p>Fitness Tracker</p> */}
 
 <div className="project-card w-25 m-2 p-1">
   <img src={BudgetTracker} type="image/gif" className="project-img card-img-top" alt="gif of budget tracker"></img>
@@ -151,9 +151,9 @@ export default function Portfolio() {
   </a>
 </div>
 
-  <p>Redux Store</p>
+  {/* <p>Redux Store</p> */}
 
-  <p>Book Search Engine</p>
+  {/* <p>Book Search Engine</p> */}
 
 </div>
 </div>

@@ -1,23 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import KaileighResume from '../public/Kaileigh-Bonaccorsi-Resume.pdf';
 
-export default function resume() {
+export default function Resume() {
+  const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
   return (
+    <div className="page-container p-2">
     <div className="resume-container">
-      <p>
-        Resume goes here
-      </p>
+      <Document
+        file={KaileighResume}
+        onLoadSuccess={({ numPages }) => setNumPages(numPages)}
+      >
+        {Array.apply(null, Array(numPages))
+        .map((x, i)=>i+1)
+        .map(page => <Page pageNumber={page} />
+        )}
+      </Document>
+      <p>Page {pageNumber} of {numPages}</p>
     </div>
-  );
+  </div>
+);
 }
-
-
-
-// Static Header
-// Static Nav
-// Dynamic content: sections display only when clicked on, only clicked on section displays
-// including information:
-//     -Resume
-//     -link to downloadable resume
-//     -list of developer's proficiencies
-//     -::highlight currently viewing section
-//     Static footer
