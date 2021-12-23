@@ -13,32 +13,33 @@ const USER_ID = process.env.REACT_APP_USER_ID;
 
 
 const Contact = () => {
-    const handleOnSubmit = (e) => {
-    e.preventDefault();
+  //   const handleOnSubmit = (e) => {
+  //   e.preventDefault();
 
-  //   emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-  //     .then((result) => {
-  //       console.log(result.text);
-  //       Swal.fire({
-  //         icon: 'success',
-  //         title: 'Message Sent Successfully'
-  //       })
-  //     }, (error) => {
-  //       console.log(error.text);
-  //       Swal.fire({
-  //         icon: 'error',
-  //         title: 'Oops, something went wrong',
-  //         text: error.text,
-  //       })
-  //     });
-  //   e.target.reset()
-   };
+  // //   emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+  // //     .then((result) => {
+  // //       console.log(result.text);
+  // //       Swal.fire({
+  // //         icon: 'success',
+  // //         title: 'Message Sent Successfully'
+  // //       })
+  // //     }, (error) => {
+  // //       console.log(error.text);
+  // //       Swal.fire({
+  // //         icon: 'error',
+  // //         title: 'Oops, something went wrong',
+  // //         text: error.text,
+  // //       })
+  // //     });
+  // //   e.target.reset()
+  //  };
 
   return (
     <div className="page-container">
       <h2 className="page-heading">Contact Me</h2>
-      <div className="page-content">
-      <form className="form d-flex">
+      <div className="page-content d-flex">
+        <a href="mailto:kaileigh.bonaccorsi@gmail.com" className="email" style={{ textDecoration: 'underline', color: 'black', justifySelf: 'center', fontSize: '20pt' }}>kaileigh.bonaccorsi@gmail.com</a>
+      {/* <form className="form d-flex">
           <Form onSubmit={handleOnSubmit}>
             <Form.Field
               id='form-input-control-email'
@@ -70,7 +71,7 @@ const Contact = () => {
             />
             <Button type='submit' className='btn'>Submit</Button>
           </Form>
-        </form>
+        </form> */}
       </div>
     </div>
   );

@@ -30,24 +30,20 @@ export default function AboutMe() {
           </p>
         </Col>
       </Row>
+      <h3 className="page-heading">Skills</h3>
       <Row >
-        <h3 className="subheading">Skills</h3>
         <div className="technologies">
-          <div className="tech">
             <Image src={HTML} className="tech-icon" alt="h t m l icon" width="70rem" />
             <Image src={CSS} className="tech-icon" alt="c s s icon" width="70rem" />
             <Image src={GitHub} className="tech-icon" alt="git hub icon" width="70rem" />
             <Image roundedCircle src={Javascript} className="tech-icon" alt="javascript icon" width="70rem" />
             <Image src={NodeJS} className="tech-icon" alt="node j s icon" width="70rem" />
-          </div>
-          <div className="tech">
             <Image src={OOP} className="tech-icon" alt=" object oriented programming icon" width="70rem" />
             <Image src={Express} className="tech-icon" alt="express j s icon" width="70rem" />
             <Image src={MySQL} className="tech-icon" alt="my sequal icon" width="70rem" />
             <Image src={PWA} className="tech-icon" alt="progressive web application icon" width="70rem" />
             <Image src={ReactImg} classname="tech-icon" alt="react icon" width="70rem" />
             <Image src={Mern} className="tech-icon" alt="mern icon" width="70rem" />
-          </div>
         </div>
       </Row>
 

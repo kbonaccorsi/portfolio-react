@@ -24,6 +24,7 @@
 .page-heading {
   font-size: 40pt;
   align-self: center;
+  text-decoration: none;
 }
 
 .page-content {
@@ -64,6 +65,9 @@
   margin: 0 auto;
 }
 
+.email {
+  font-size: larger;
+}
 /* @media screen {
   selfie shrinks
   about me bio text size shrinks
