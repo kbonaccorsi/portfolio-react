@@ -1,11 +1,12 @@
 .footer-container {
-  background-color: #E2E8CE;
+  /* background-color: #E2E8CE; */
   min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   line-height: 2;
   justify-content: space-around;
+  color: #ffffff;
 }
 
 .social-media-platforms {

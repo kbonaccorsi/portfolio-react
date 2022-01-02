@@ -6,13 +6,13 @@ export default function Nav({ currentPage, handlePageChange }) {
   return (
     <div className="navbar">
       <ul className="nav">
-        <li className="nav-choice">
+        {/* <li className="nav-choice">
           <a href="#HomePage" onClick={() => handlePageChange("HomePage")} className={currentPage === "HomePage" ? "nav-link active" : "nav-link"}>
             <button type="button" className="btns border-2 rounded-3">
               Home Page
             </button>
           </a>
-        </li>
+        </li> */}
         <li className="nav-choice">
           <a href="#AboutMe" onClick={() => handlePageChange("AboutMe")} className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}>
             <button type="button" className="btns border-2 rounded-3">

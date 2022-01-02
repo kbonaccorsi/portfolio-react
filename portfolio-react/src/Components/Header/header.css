@@ -1,5 +1,5 @@
 .header-container {
-  background-color: #e24d5c;
+  /* background-color: #e24d5c; */
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
   align-self: center;
 }
 
-.certification {
+.certificate {
   font-size: 40pt;
   align-self: center;
 }
