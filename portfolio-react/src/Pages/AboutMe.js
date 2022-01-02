@@ -18,7 +18,7 @@ import Mern from '../public/mern.png';
 
 export default function AboutMe() {
   return (
-    <Container fluid className="page-container">
+    <Container fluid className="page-container" style={{background: '#ebf5f4', }}>
       <h2 className="page-heading">About Me</h2>
       <Row className="page-content d-flex" >
         <Col xs="auto" className="selfie">

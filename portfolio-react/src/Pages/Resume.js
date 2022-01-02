@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import React, { useState } from 'react';
 import KaileighResume from '../public/Kaileigh-Bonaccorsi-Resume.pdf';
 
 export default function Resume() {
