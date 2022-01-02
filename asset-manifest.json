@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.ce020740.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.01eef965.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.01eef965.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.69f013b6.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.23932103.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.23932103.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.9907e7f1.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.9907e7f1.js.map",
     "static/css/2.20648487.chunk.css": "/portfolio-react/static/css/2.20648487.chunk.css",
@@ -12,7 +12,7 @@
     "3bc629d5f743a1772f7a775c5f5fb0c1.js.LICENSE.txt": "/portfolio-react/3bc629d5f743a1772f7a775c5f5fb0c1.js.LICENSE.txt",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.20648487.chunk.css.map": "/portfolio-react/static/css/2.20648487.chunk.css.map",
-    "static/css/main.ce020740.chunk.css.map": "/portfolio-react/static/css/main.ce020740.chunk.css.map",
+    "static/css/main.69f013b6.chunk.css.map": "/portfolio-react/static/css/main.69f013b6.chunk.css.map",
     "static/js/2.29977e7d.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.29977e7d.chunk.js.LICENSE.txt",
     "static/media/Kaileigh-Bonaccorsi-Resume.91386cd8.pdf": "/portfolio-react/static/media/Kaileigh-Bonaccorsi-Resume.91386cd8.pdf",
     "static/media/semantic.min.css": "/portfolio-react/static/media/outline-icons.ddae9b1b.woff",
@@ -25,14 +25,16 @@
     "static/media/javascript.6c1e8db3.png": "/portfolio-react/static/media/javascript.6c1e8db3.png",
     "static/media/nodejs.3dde62bb.png": "/portfolio-react/static/media/nodejs.3dde62bb.png",
     "static/media/password-generator.99caba95.gif": "/portfolio-react/static/media/password-generator.99caba95.gif",
+    "static/media/poppyField.ea809d93.jpg": "/portfolio-react/static/media/poppyField.ea809d93.jpg",
     "static/media/react.ef20e673.png": "/portfolio-react/static/media/react.ef20e673.png",
-    "static/media/selfie.19f0a75f.jpg": "/portfolio-react/static/media/selfie.19f0a75f.jpg"
+    "static/media/selfie.19f0a75f.jpg": "/portfolio-react/static/media/selfie.19f0a75f.jpg",
+    "static/media/sunflower.0543024a.jpg": "/portfolio-react/static/media/sunflower.0543024a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9907e7f1.js",
     "static/css/2.20648487.chunk.css",
     "static/js/2.29977e7d.chunk.js",
-    "static/css/main.ce020740.chunk.css",
-    "static/js/main.01eef965.chunk.js"
+    "static/css/main.69f013b6.chunk.css",
+    "static/js/main.23932103.chunk.js"
   ]
 }
