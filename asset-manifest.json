@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.3dda4eae.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.76ddbaed.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.76ddbaed.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.182990b3.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.c167ee40.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c167ee40.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.9907e7f1.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.9907e7f1.js.map",
     "static/css/2.20648487.chunk.css": "/portfolio-react/static/css/2.20648487.chunk.css",
-    "static/js/2.9591c698.chunk.js": "/portfolio-react/static/js/2.9591c698.chunk.js",
-    "static/js/2.9591c698.chunk.js.map": "/portfolio-react/static/js/2.9591c698.chunk.js.map",
+    "static/js/2.f32d4332.chunk.js": "/portfolio-react/static/js/2.f32d4332.chunk.js",
+    "static/js/2.f32d4332.chunk.js.map": "/portfolio-react/static/js/2.f32d4332.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.20648487.chunk.css.map": "/portfolio-react/static/css/2.20648487.chunk.css.map",
-    "static/css/main.3dda4eae.chunk.css.map": "/portfolio-react/static/css/main.3dda4eae.chunk.css.map",
-    "static/js/2.9591c698.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.9591c698.chunk.js.LICENSE.txt",
-    "static/media/Kaileigh-Bonaccorsi-Resume.5bb773f4.pdf": "/portfolio-react/static/media/Kaileigh-Bonaccorsi-Resume.5bb773f4.pdf",
+    "static/css/main.182990b3.chunk.css.map": "/portfolio-react/static/css/main.182990b3.chunk.css.map",
+    "static/js/2.f32d4332.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.f32d4332.chunk.js.LICENSE.txt",
+    "static/media/Kaileigh-Bonaccorsi-Resume.91386cd8.pdf": "/portfolio-react/static/media/Kaileigh-Bonaccorsi-Resume.91386cd8.pdf",
     "static/media/semantic.min.css": "/portfolio-react/static/media/outline-icons.ddae9b1b.woff",
     "static/media/budget-tracker.44b2e74c.gif": "/portfolio-react/static/media/budget-tracker.44b2e74c.gif",
     "static/media/code-quiz.a4fb5284.gif": "/portfolio-react/static/media/code-quiz.a4fb5284.gif",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.9907e7f1.js",
     "static/css/2.20648487.chunk.css",
-    "static/js/2.9591c698.chunk.js",
-    "static/css/main.3dda4eae.chunk.css",
-    "static/js/main.76ddbaed.chunk.js"
+    "static/js/2.f32d4332.chunk.js",
+    "static/css/main.182990b3.chunk.css",
+    "static/js/main.c167ee40.chunk.js"
   ]
 }
