@@ -38,6 +38,7 @@ export default function App() {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
         backgroundRepeat: 'no-repeat',
+        backgroundAttachment: 'fixed'
       }}>
       <div>
         <Header />
@@ -47,11 +48,6 @@ export default function App() {
       </div>
       <div className="page-container">
         {renderPage()}
-        {/* <AboutMe /> */}
-        {/* <Contact /> */}
-        {/* <HomePage /> */}
-        {/* <Portfolio /> */}
-        {/* <Resume /> */}
       </div>
       <div>
         <Footer />
