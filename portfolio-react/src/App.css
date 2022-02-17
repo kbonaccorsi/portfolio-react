@@ -1,21 +1,14 @@
-/* color palette from https://coolors.co/29827f-e2e8ce-ffffff-e26d5c-0b0500 */
-
 :root {
-  --teal: #ebf5f4;
-  --beige: #E2E8CE;
-  --white: #FFFFFF;
-  --smokyBlack: #0B0500;
-  --grey: #b6b6b6;
-
+  --outline: #878a7f;
+  --background: #E2E8CE;
 }
+
 .webpage-container {
-  /* background-color: grey; */
   height: 100%;
   width: auto;
 }
 
 .page-container {
-  /* background-color: var(--teal); */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -29,6 +22,8 @@
 
 .page-content {
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 .aboutme-selfie {
@@ -49,27 +44,31 @@
 
 .project-card {
   flex-direction: column;
-  background-color: var(--grey);
+  background-color: var(--background);
 }
 
 .btns {
-  background-color: #E2E8CE;
+  background-color: var(--background);
   font: 16pt black;
-  border: 2px solid #878a7f;
+  border: solid var(--outline) 2px;
   padding: 10px;
 }
 
 .form {
-  flex-direction: row;
   width: 50vw;
-  align-self: center;
-  margin: 0 auto;
-  padding: 5px;
-  line-height: 3;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-/* .react-pdf__Page__canvas {
-  margin: 0 auto;
-  width: 80% !important;
-  height: 100% !important;
-} */
+input {
+  height: 3em;
+  border-radius: 5px;
+  border: solid var(--outline) 1pt;
+}
+
+textarea {
+  height: 10em;
+  border-radius: 5px;
+  border: solid var(--outline) 1pt;
+}
