@@ -59,12 +59,14 @@
   padding: 10px;
 }
 
-/* .form {
+.form {
+  flex-direction: row;
   width: 50vw;
   align-self: center;
   margin: 0 auto;
   padding: 5px;
-} */
+  line-height: 3;
+}
 
 /* .react-pdf__Page__canvas {
   margin: 0 auto;

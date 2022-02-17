@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
@@ -37,19 +36,17 @@ export default function Contact() {
     <div className="page-container">
       <h2 className="page-heading">Contact Me</h2>
       <div className="page-content d-flex">
-        <form ref={form} onSubmit={handleOnSubmit}>
-          <label name="user_name">Name</label>
-          <input type="text" name="user_name" icon='mail' iconPosition='left'/>
-          <label name="user_email">Email</label>
-          <input type="text" name="user_email" />
-          <label name="user_message">Message</label>
-          <textarea name="user_message"/>
-          <input type="submit" value="Send" />
-        </form>
-        
-        
-        {/* <a href="mailto:kaileigh.bonaccorsi@gmail.com" className="email" style={{ textDecoration: 'underline', color: 'black', justifySelf: 'center', fontSize: '20pt' }}>kaileigh.bonaccorsi@gmail.com</a> */}
-        {/* <div className="form d-flex">
+        <div className="form d-flex">
+          <form ref={form} onSubmit={handleOnSubmit}>
+            <label name="user_name" />          <input type="text" name="user_name" placeholder="name" icon='mail' iconPosition='left'/>
+            <label name="user_email" />          <input type="" name="user_email" placeholder="email" />
+            <label name="user_message" />
+            <textarea name="user_message" placeholder="message"/>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+
+        {/* 
           <Form ref={form} onSubmit={handleOnSubmit}>
             <form.Field
               id='form-input-control-email'
