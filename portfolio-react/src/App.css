@@ -3,6 +3,22 @@
   --background: #E2E8CE;
 }
 
+input {
+  height: 3em;
+  border-radius: 5px;
+  border: solid var(--outline) 1pt;
+}
+
+textarea {
+  height: 10em;
+  border-radius: 5px;
+  border: solid var(--outline) 1pt;
+}
+
+h3 {
+  font-size: 50px !important;
+}
+
 .webpage-container {
   height: 100%;
   width: auto;
@@ -21,7 +37,7 @@
 }
 
 .page-content {
-  flex-direction: row;
+  display: flex;
   justify-content: center;
   align-content: center;
 }
@@ -37,14 +53,25 @@
   align-self: center;
 }
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
+
 .project-heading {
   font-size: 20pt;
   align-self: center;
 }
 
 .project-card {
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   background-color: var(--background);
+  width: 30%;
+  padding: 3px;
+  margin: 15px;
 }
 
 .btns {
@@ -52,6 +79,8 @@
   font: 16pt black;
   border: solid var(--outline) 2px;
   padding: 10px;
+  border-radius: 3px;
+  margin: 3px;
 }
 
 .form {
@@ -61,14 +90,3 @@
   justify-content: space-evenly;
 }
 
-input {
-  height: 3em;
-  border-radius: 5px;
-  border: solid var(--outline) 1pt;
-}
-
-textarea {
-  height: 10em;
-  border-radius: 5px;
-  border: solid var(--outline) 1pt;
-}
